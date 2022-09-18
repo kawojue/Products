@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/8b9b074ef2.js" crossorigin="anonymous"></script>
+
+    <!-- Font Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="font-poppins text-center">
+    <header class="mt-20 mb-10 grid place-items-center">
+        <h1 class="text-[40px]">Our Products</h1>
+        <div class="bg-bg-clr-1 w-[100px] h-[5px]"></div>
+    </header>
+    <section class="w-full grid place-items-center">
+        <article
+            class="loading-spin w-[400px] h-[400px] relative grid place-items-center text-[2.5rem] overflow-hidden">
+            Loading..
+            <div class="spin-sector spin-sector-1"></div>
+            <div class="spin-sector spin-sector-2"></div>
+            <div class="spin-sector spin-sector-3"></div>
+        </article>
+    </section>
+
+    <section class="mb-16">
+        <article id="content"
+            class="w-full grid grid-cols-1 gap-10 md:gap-9 place-items-center md:grid-cols-2 lg:grid-cols-4 px-3 md:px-10 lg:px-16">
+        </article>
+    </section>
+
+    <!-- Scripts -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
